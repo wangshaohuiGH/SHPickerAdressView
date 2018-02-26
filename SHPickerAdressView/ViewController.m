@@ -25,8 +25,12 @@
     
     UITapGestureRecognizer *tapGest = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clickLabelSelectAction)];
     [label addGestureRecognizer:tapGest];
+
     
     NSLog(@"feature");
+
+    NSLog(@"做出了一些修改");
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)clickLabelSelectAction {
