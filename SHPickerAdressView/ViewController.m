@@ -25,6 +25,11 @@
     
     UITapGestureRecognizer *tapGest = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clickLabelSelectAction)];
     [label addGestureRecognizer:tapGest];
+    
+    UIView *test1 = [UIView new];
+    test1.frame = CGRectMake(100, 400, 100, 100);
+    test1.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:test1];
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)clickLabelSelectAction {
